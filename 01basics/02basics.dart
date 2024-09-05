@@ -54,6 +54,6 @@ void  main()
 
     print(dec?.length??0);  // if dec is null prints 0 
     dec = '12';
-    print(dec!.length);  // if dec has same value prints the length
+    print(dec.length);  // if dec has same value prints the length
 
 }
